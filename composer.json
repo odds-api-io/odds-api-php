@@ -1,0 +1,59 @@
+{
+    "name": "odds-api-io/odds-api-php",
+    "description": "Official PHP SDK for Odds-API.io: real-time sports betting odds from 450+ bookmakers across 34 sports",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "odds",
+        "odds-api",
+        "sports betting",
+        "sports data",
+        "betting odds",
+        "api",
+        "sdk"
+    ],
+    "homepage": "https://docs.odds-api.io/guides/sdks",
+    "authors": [
+        {
+            "name": "Odds-API.io",
+            "email": "hello@odds-api.io",
+            "homepage": "https://odds-api.io"
+        }
+    ],
+    "support": {
+        "email": "hello@odds-api.io",
+        "issues": "https://github.com/odds-api-io/odds-api-php/issues",
+        "source": "https://github.com/odds-api-io/odds-api-php",
+        "docs": "https://docs.odds-api.io/guides/sdks"
+    },
+    "require": {
+        "php": ">=8.1",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.5",
+        "psr/http-client": "^1.0",
+        "psr/http-factory": "^1.0",
+        "psr/http-message": "^1.1 || ^2.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^10.5 || ^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "OddsApiIo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "OddsApiIo\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "analyse": "phpstan analyse"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable"
+}
