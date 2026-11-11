@@ -71,7 +71,7 @@ final class OddsApiClientTest extends TestCase
 
     private function lastRequest(): RequestInterface
     {
-        $this->assertNotEmpty($this->history);
+        $this->assertGreaterThan(0, count($this->history));
 
         $entry = $this->history[count($this->history) - 1];
         $this->assertIsArray($entry);
