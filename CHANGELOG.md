@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Docs: `getMarkets()`, `getBookmakers()`, the `$markets` parameter of `getEventOdds()` and the README link to the market reference at https://odds-api.io/markets and bookmaker coverage at https://odds-api.io/sportsbooks#coverage.
+
 ## 0.1.0 (2026-11-11)
 
 First release.
