@@ -39,7 +39,7 @@ use Psr\Http\Message\StreamFactoryInterface;
  */
 class OddsApiClient
 {
-    public const VERSION = '0.1.0';
+    public const VERSION = '0.1.1';
     public const BASE_URL = 'https://api.odds-api.io/v3';
     public const WEBSOCKET_URL = 'wss://api.odds-api.io/v3/ws';
 
