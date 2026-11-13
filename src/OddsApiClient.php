@@ -157,6 +157,7 @@ class OddsApiClient
 
     /**
      * The market catalogue: the exact names to pass as "markets". Omit $sport for every sport.
+     * Browsable per sport at https://odds-api.io/markets (e.g. https://odds-api.io/markets/football).
      *
      * @return Row
      */
@@ -169,6 +170,7 @@ class OddsApiClient
 
     /**
      * All bookmakers, with status (ok, degraded, down) and reason.
+     * Coverage by sport: https://odds-api.io/sportsbooks#coverage
      *
      * @return list<Row>
      */
@@ -299,7 +301,8 @@ class OddsApiClient
      * Odds for one event.
      *
      * @param StrList $bookmakers up to 30, e.g. ['Bet365', 'SingBet']
-     * @param StrList|null $markets up to 40, e.g. ['ML', 'Spread', 'Totals']; omit for every market
+     * @param StrList|null $markets up to 40, e.g. ['ML', 'Spread', 'Totals']; omit for every market.
+     *     Every name per sport: https://odds-api.io/markets
      * @param bool|null $includeSeq true to get the WebSocket sequence in the X-OddsAPI-Seq header
      * @return Row
      */

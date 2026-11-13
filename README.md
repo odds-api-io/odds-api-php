@@ -109,7 +109,7 @@ $live = $client->searchEvents('Liverpool', status: 'live');
 
 List parameters (`bookmakers`, `markets`, `eventIds`, `leagues`, `status`) accept a comma-separated string (`'Bet365,SingBet'`) or an array. Dates accept an RFC3339 string, a `DateTimeInterface` or Unix seconds. Responses are decoded JSON arrays with the same field names as the [API reference](https://docs.odds-api.io/api-reference/introduction).
 
-Market names must match in full: there is no `Match Winner` (use `ML`) and no bare `Over/Under`. Call `getMarkets($sport)` to see the names a sport serves.
+Market names must match in full: there is no `Match Winner` (use `ML`) and no bare `Over/Under`. Call `getMarkets($sport)` to see the names a sport serves, or browse the [market reference](https://odds-api.io/markets) per sport (for example [football](https://odds-api.io/markets/football)). Bookmaker coverage by sport is at [odds-api.io/sportsbooks](https://odds-api.io/sportsbooks#coverage).
 
 ## Odds comparison and summary
 
