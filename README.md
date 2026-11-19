@@ -5,7 +5,7 @@
 [![PHP Version](https://img.shields.io/badge/php-%3E%3D8.1-777bb4.svg)](https://www.php.net)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Official PHP SDK for the [**Odds-API.io**](https://odds-api.io) sports betting odds API: real-time and pre-match odds from 450+ bookmakers across 34 sports.
+Official PHP SDK for the [**Odds-API.io**](https://odds-api.io) sports betting odds API: real-time and pre-match odds from 500+ bookmakers across 34 sports.
 
 Building with AI? See the [AI and vibe coding guide](https://docs.odds-api.io/ai-vibe-coding). Prefer another language? Check out the [Node.js SDK](https://github.com/odds-api-io/odds-api-node) and the [Python SDK](https://github.com/odds-api-io/odds-api-python).
 
@@ -56,7 +56,7 @@ The odds API needs a key from a paid plan. Pick a plan at [**odds-api.io/pricing
 | Esports | CS2, League of Legends, Dota 2 |
 | ...and 27 more | 34 sports in total |
 
-Odds come from **450+ bookmakers**, including Bet365, DraftKings, FanDuel, Betfair, Unibet and SingBet. See the [full coverage list](https://odds-api.io/sportsbooks#coverage).
+Odds come from **500+ bookmakers**, including Bet365, DraftKings, FanDuel, Betfair, Unibet and SingBet. See the [full coverage list](https://odds-api.io/sportsbooks#coverage).
 
 ## Documentation
 
