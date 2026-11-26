@@ -1,6 +1,6 @@
 {
     "name": "odds-api-io/odds-api-php",
-    "description": "Official PHP SDK for Odds-API.io: real-time sports betting odds from 500+ bookmakers across 34 sports",
+    "description": "Official PHP SDK for Odds-API.io: real-time sports betting odds from 500+ bookmakers across 37 sports",
     "type": "library",
     "license": "MIT",
     "keywords": [
